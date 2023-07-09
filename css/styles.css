@@ -4,10 +4,6 @@ body {
     background-color: lightgray;
 }
 
-h1 {
-    text-align: center;
-}
-
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -32,7 +28,7 @@ h1 {
 .btn {
     display: inline-block;
     padding: 1.3rem 70px;
-    margin: 4rem 0rem;
+    margin: 3rem 0rem;
     cursor: pointer;
     background-color: #C63450;
     color: #fff;
@@ -42,6 +38,7 @@ h1 {
     font-family: cursive;
     font-size: 1.4rem;
     box-shadow: 12px 12px 4px rgba(0, 0, 0, 0.5);
+
 }
 
 .btn:hover {
@@ -54,24 +51,12 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-footer p {
-    font-size: 0.8rem;
-}
-
+h1,
 p {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    margin: 0.5rem auto;
+    margin: 1rem auto;
     text-align: center;
-    width: 50%;
+    width: 70%;
 }
