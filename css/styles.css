@@ -46,6 +46,8 @@ h1 {
 
 .btn:hover {
     opacity: .9;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .7);
 }
 
 .button {
@@ -63,4 +65,13 @@ footer {
 
 footer p {
     font-size: 0.8rem;
+}
+
+p {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin: 0.5rem auto;
+    text-align: center;
+    width: 50%;
 }
